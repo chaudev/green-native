@@ -49,8 +49,6 @@ Social network color
 <Text style={{ color: Colors.youtube, fontSize: 18 }}>Green Native</Text>
 ```
 
-<<<<<<< HEAD
-
 ### Colors
 
 ```javascript
@@ -261,8 +259,15 @@ import { windowHeight, windowWidth } from "green-native";
 
 #### function: is18x9, isIOS, isNull, randomNonRepeat, saveToStorage, getFromStorage
 
-=======
+### END OF VERSION 1.0.0
 
-### End
+### About
 
-> > > > > > > 174b66c176d9c0145ea302bd51ea86bdc0ddf289
+NGUYEN PHUC BAO CHAU
+
+linked: baochau9xx
+facebook: baochau9xx
+
+### Keyword
+
+baochau9xx, green, green-native, react-native, native, baochau
