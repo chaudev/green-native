@@ -15,9 +15,9 @@ npx react-native-link
 ### Colors
 
 ```javascript
-import {Colors} from 'green-native';
+import { Colors } from "green-native";
 
-<Text style={{color: Colors.green, fontSize: 18}}>Green Native</Text>;
+<Text style={{ color: Colors.green, fontSize: 18 }}>Green Native</Text>;
 ```
 
 #### Available props
@@ -40,19 +40,21 @@ import {Colors} from 'green-native';
 Light or dark colors can be used
 
 ```javascript
-<Text style={{color: Colors.orangeDark, fontSize: 18}}>Green Native</Text>
+<Text style={{ color: Colors.orangeDark, fontSize: 18 }}>Green Native</Text>
 ```
 
 Social network color
 
 ```javascript
-<Text style={{color: Colors.youtube, fontSize: 18}}>Green Native</Text>
+<Text style={{ color: Colors.youtube, fontSize: 18 }}>Green Native</Text>
 ```
+
+<<<<<<< HEAD
 
 ### Colors
 
 ```javascript
-import {Icon} from 'green-native';
+import { Icon } from "green-native";
 
 <Icon type="Ionicons" name="camera" size={30} color={Colors.purpleDark} />;
 ```
@@ -73,7 +75,7 @@ Icons can be found at: https://oblador.github.io/react-native-vector-icons
 ### Button
 
 ```javascript
-import {Colors, Button} from '../../green-native';
+import { Colors, Button } from "../../green-native";
 
 <Button
   isOutLine={true}
@@ -82,7 +84,7 @@ import {Colors, Button} from '../../green-native';
   boderColor={Colors.green}
   radius={4}
   onPress={() => {
-    console.log('This is handle');
+    console.log("This is handle");
   }}
 />;
 ```
@@ -109,7 +111,7 @@ import {Colors, Button} from '../../green-native';
 ### CheckBox
 
 ```javascript
-import {Colors, CheckBox} from '../../green-native';
+import { Colors, CheckBox } from "../../green-native";
 
 const GreenMaster = () => {
   const [status, setStatus] = React.useState(false);
@@ -151,7 +153,7 @@ const GreenMaster = () => {
 ### Spinner
 
 ```javascript
-import {Colors, Spinner} from 'green-native';
+import { Colors, Spinner } from "green-native";
 
 <Spinner
   type="full"
@@ -175,14 +177,14 @@ import {Colors, Spinner} from 'green-native';
 ### ButtonIcon
 
 ```javascript
-import {Colors, ButtonIcon} from 'green-native';
+import { Colors, ButtonIcon } from "green-native";
 
 <ButtonIcon
   text="This is Green Native"
   textColor={Colors.black}
   textSize={20}
   onPress={() => {
-    console.log('This is Green Native');
+    console.log("This is Green Native");
   }}
 />;
 ```
@@ -207,7 +209,7 @@ import {Colors, ButtonIcon} from 'green-native';
 ### ErrorNotification
 
 ```javascript
-import {Colors, ErrorNotification} from 'green-native';
+import { Colors, ErrorNotification } from "green-native";
 
 <ErrorNotification
   text="Please enter password"
@@ -232,7 +234,7 @@ import {Colors, ErrorNotification} from 'green-native';
 #### useKeyboard
 
 ```javascript
-import {useKeyboard} from 'green-native';
+import { useKeyboard } from "green-native";
 
 const keyboard = useKeyboard(); // true, false
 ```
@@ -242,19 +244,25 @@ const keyboard = useKeyboard(); // true, false
 #### screenHeight, screenWidth
 
 ```javascript
-import {screenHeight, screenWidth} from 'green-native';
+import { screenHeight, screenWidth } from "green-native";
 
-<View style={{width: screenWidth, height: screenHeight}} />;
+<View style={{ width: screenWidth, height: screenHeight }} />;
 ```
 
 #### windowHeight, windowWidth
 
 ```javascript
-import {windowHeight, windowWidth} from 'green-native';
+import { windowHeight, windowWidth } from "green-native";
 
-<View style={{width: windowWidth, height: windowHeight}} />;
+<View style={{ width: windowWidth, height: windowHeight }} />;
 ```
 
 #### GreenStyles: Center, Row, ColumCenter, ShadowBox, Title
 
 #### function: is18x9, isIOS, isNull, randomNonRepeat, saveToStorage, getFromStorage
+
+=======
+
+### End
+
+> > > > > > > 174b66c176d9c0145ea302bd51ea86bdc0ddf289
