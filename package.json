@@ -1,0 +1,31 @@
+{
+  "name": "green-native",
+  "version": "1.0.0",
+  "description": "This is a library for React Native code",
+  "main": "index.js",
+  "dependencies": {
+    "react-native-vector-icons": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm i green-native"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaudev/green-native.git"
+  },
+  "keywords": [
+    "green-native",
+    "baochau9xx",
+    "baochau",
+    "green",
+    "react-native",
+    "native"
+  ],
+  "author": "NGUYEN PHUC BAO CHAU (baochau9xx, chaudev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaudev/green-native/issues"
+  },
+  "homepage": "https://github.com/chaudev/green-native#readme"
+}
