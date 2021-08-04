@@ -265,8 +265,7 @@ import { windowHeight, windowWidth } from "green-native";
 
 NGUYEN PHUC BAO CHAU
 
-linked: baochau9xx
-facebook: baochau9xx
+linked & facebook: baochau9xx
 
 ### Keyword
 
