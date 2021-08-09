@@ -73,7 +73,7 @@ Icons can be found at: https://oblador.github.io/react-native-vector-icons
 ### Button
 
 ```javascript
-import { Colors, Button } from "../../green-native";
+import { Colors, Button } from "green-native";
 
 <Button
   isOutLine={true}
@@ -109,7 +109,7 @@ import { Colors, Button } from "../../green-native";
 ### CheckBox
 
 ```javascript
-import { Colors, CheckBox } from "../../green-native";
+import { Colors, CheckBox } from "green-native";
 
 const GreenMaster = () => {
   const [status, setStatus] = React.useState(false);
@@ -257,7 +257,16 @@ import { windowHeight, windowWidth } from "green-native";
 
 #### GreenStyles: Center, Row, ColumCenter, ShadowBox, Title
 
-#### function: is18x9, isIOS, isNull, randomNonRepeat, saveToStorage, getFromStorage, PhoneCall
+#### Function
+
+| Name           | Type     | Input                | Output          |
+| -------------- | -------- | -------------------- | --------------- |
+| isIOS          | function |                      | true - false    |
+| is18x9         | function |                      | true - false    |
+| isNull         | function |                      | true - false    |
+| saveToStorage  | function | String: name, value  |                 |
+| getFromStorage | function | String: name         | String          |
+| PhoneCall      | function | String: phone number | Open phone call |
 
 ### END OF VERSION 1.0.0
 
@@ -269,4 +278,4 @@ linked & facebook: baochau9xx
 
 ### Keyword
 
-baochau9xx, green, green-native, react-native, native, baochau
+baochau9xx, green, green-native, green native, react-native, native, baochau
