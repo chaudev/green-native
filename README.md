@@ -257,7 +257,7 @@ import { windowHeight, windowWidth } from "green-native";
 
 #### GreenStyles: Center, Row, ColumCenter, ShadowBox, Title
 
-#### function: is18x9, isIOS, isNull, randomNonRepeat, saveToStorage, getFromStorage
+#### function: is18x9, isIOS, isNull, randomNonRepeat, saveToStorage, getFromStorage, PhoneCall
 
 ### END OF VERSION 1.0.0
 

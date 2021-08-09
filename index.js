@@ -3,15 +3,15 @@ import {
   screenWidth,
   windowHeight,
   windowWidth,
-} from './src/config';
-import {Colors} from './src/styles/colors';
-import {GreenStyles} from './src/styles/greenStyles';
-import {ErrorNotification} from './src/components/ErrorNotification';
-import {Icon} from './src/components/Icon';
-import {Button} from './src/components/Button';
-import {CheckBox} from './src/components/CheckBox';
-import {Spinner} from './src/components/Spinner';
-import {ButtonIcon} from './src/components/ButtonIcon';
+} from "./src/config";
+import { Colors } from "./src/styles/colors";
+import { GreenStyles } from "./src/styles/greenStyles";
+import { ErrorNotification } from "./src/components/ErrorNotification";
+import { Icon } from "./src/components/Icon";
+import { Button } from "./src/components/Button";
+import { CheckBox } from "./src/components/CheckBox";
+import { Spinner } from "./src/components/Spinner";
+import { ButtonIcon } from "./src/components/ButtonIcon";
 import {
   saveToStorage,
   getFromStorage,
@@ -19,8 +19,9 @@ import {
   isIOS,
   isNull,
   randomNonRepeat,
-} from './src/function';
-import {useKeyboard} from './src/hook/useKeyboard';
+  PhoneCall,
+} from "./src/function";
+import { useKeyboard } from "./src/hook/useKeyboard";
 
 export {
   Colors,
@@ -42,4 +43,5 @@ export {
   Spinner,
   ButtonIcon,
   GreenStyles,
+  PhoneCall,
 };

@@ -1,17 +1,17 @@
-import {AsyncStorage} from 'react-native';
-import {Platform, Dimensions} from 'react-native';
+import { AsyncStorage } from "react-native";
+import { Platform, Dimensions, Linking } from "react-native";
 
 // Save to AsyncStorage
 const saveToStorage = async (name, value) => {
   try {
     await AsyncStorage.setItem(name, value);
   } catch (error) {
-    console.log('Can not save to AsyncStorage');
+    console.log("Can not save to AsyncStorage");
   }
 };
 
 // Get from AsyncStorage
-const getFromStorage = async name => {
+const getFromStorage = async (name) => {
   try {
     var value = await AsyncStorage.getItem(name);
     if (value !== null || value !== undefined) {
@@ -20,12 +20,12 @@ const getFromStorage = async name => {
       return 0;
     }
   } catch (error) {
-    console.log('Can not get data from AsyncStorage');
+    console.log("Can not get data from AsyncStorage");
   }
 };
 
 // Random NonRepeat
-const randomNonRepeat = max => {
+const randomNonRepeat = (max) => {
   var arrayFinal = [];
   for (let i = 0; i < max; i++) {
     var result = checkExist(arrayFinal, max);
@@ -53,12 +53,12 @@ const checkExist = (arrayFinal, max) => {
 
 // Check IOS phone
 const isIOS = () => {
-  return Platform.OS === 'ios' ? true : false;
+  return Platform.OS === "ios" ? true : false;
 };
 
 // Check IOS phone
-const isNull = value => {
-  if (value == '' || value == null || value == undefined || value == NaN) {
+const isNull = (value) => {
+  if (value == "" || value == null || value == undefined || value == NaN) {
     return true;
   } else {
     return false;
@@ -67,8 +67,8 @@ const isNull = value => {
 
 // Check screen
 const is18x9 = () => {
-  const widthScreen = Dimensions.get('window').width;
-  const heightScreen = Dimensions.get('window').height;
+  const widthScreen = Dimensions.get("window").width;
+  const heightScreen = Dimensions.get("window").height;
   if (heightScreen / widthScreen > 1.8) {
     return true;
   } else {
@@ -76,4 +76,19 @@ const is18x9 = () => {
   }
 };
 
-export {saveToStorage, getFromStorage, randomNonRepeat, isIOS, isNull, is18x9};
+export const PhoneCall = (phoneNumber) => {
+  console.log(phoneNumber);
+  isIOS()
+    ? Linking.openURL(`telprompt:${phoneNumber}`)
+    : Linking.openURL(`tel:${phoneNumber}`);
+};
+
+export {
+  saveToStorage,
+  getFromStorage,
+  randomNonRepeat,
+  isIOS,
+  isNull,
+  is18x9,
+  PhoneCall,
+};
