@@ -26,7 +26,7 @@ export const Button = ({
           : isLight
           ? Colors.white
           : Colors.transparent,
-        borderradius: radius || 0,
+          borderRadius: radius || 0,
       }}>
       <TouchableOpacity
         onPress={() => {
