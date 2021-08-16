@@ -76,11 +76,29 @@ const is18x9 = () => {
   }
 };
 
-export const PhoneCall = (phoneNumber) => {
+const PhoneCall = (phoneNumber) => {
   console.log(phoneNumber);
   isIOS()
     ? Linking.openURL(`telprompt:${phoneNumber}`)
     : Linking.openURL(`tel:${phoneNumber}`);
+};
+
+const parseMoney = (value) => {
+  var temp = value + "";
+  var response = "";
+  var flag = 0;
+  for (let index = temp.length - 1; index > -1; index--) {
+    response = response + temp[index];
+    if (flag == 2 && index > 0) {
+      response = response + ".";
+      flag = -1;
+    }
+    flag++;
+  }
+  let arrayText = response.split("");
+  arrayText.reverse();
+  arrayText.join("");
+  return arrayText;
 };
 
 export {
@@ -91,4 +109,5 @@ export {
   isNull,
   is18x9,
   PhoneCall,
+  parseMoney,
 };

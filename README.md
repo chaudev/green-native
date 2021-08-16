@@ -259,14 +259,15 @@ import { windowHeight, windowWidth } from "green-native";
 
 #### Function
 
-| Name           | Type     | Input                | Output          |
-| -------------- | -------- | -------------------- | --------------- |
-| isIOS          | function |                      | true - false    |
-| is18x9         | function |                      | true - false    |
-| isNull         | function |                      | true - false    |
-| saveToStorage  | function | String: name, value  |                 |
-| getFromStorage | function | String: name         | String          |
-| PhoneCall      | function | String: phone number | Open phone call |
+| Name           | Type     | Input                 | Output          |
+| -------------- | -------- | --------------------- | --------------- |
+| isIOS          | function |                       | true - false    |
+| is18x9         | function |                       | true - false    |
+| isNull         | function |                       | true - false    |
+| saveToStorage  | function | String: name, value   |                 |
+| getFromStorage | function | String: name          | String          |
+| PhoneCall      | function | String: phone number  | Open phone call |
+| parseMoney     | function | String, number: 69000 | 69.000          |
 
 ### END OF VERSION 1.0.0
 

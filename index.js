@@ -20,6 +20,7 @@ import {
   isNull,
   randomNonRepeat,
   PhoneCall,
+  parseMoney,
 } from "./src/function";
 import { useKeyboard } from "./src/hook/useKeyboard";
 
@@ -44,4 +45,5 @@ export {
   ButtonIcon,
   GreenStyles,
   PhoneCall,
+  parseMoney,
 };
