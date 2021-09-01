@@ -12,6 +12,7 @@ import { Button } from "./src/components/Button";
 import { CheckBox } from "./src/components/CheckBox";
 import { Spinner } from "./src/components/Spinner";
 import { ButtonIcon } from "./src/components/ButtonIcon";
+import { AnimationButton } from "./src/components/AnimationButton";
 import {
   saveToStorage,
   getFromStorage,
@@ -33,6 +34,7 @@ export {
   windowHeight,
   Icon,
   Button,
+  AnimationButton,
   CheckBox,
   saveToStorage,
   getFromStorage,
