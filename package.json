@@ -1,6 +1,6 @@
 {
   "name": "green-native",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a library for React Native code",
   "main": "index.js",
   "dependencies": {
