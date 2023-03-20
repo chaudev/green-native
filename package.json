@@ -1,6 +1,6 @@
 {
   "name": "green-native",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is a library for React Native code",
   "main": "index.js",
   "dependencies": {
@@ -20,7 +20,8 @@
     "baochau",
     "green",
     "react-native",
-    "native"
+    "native",
+    "dovuihainao"
   ],
   "author": "NGUYEN PHUC BAO CHAU (baochau9xx, chaudev)",
   "license": "ISC",
